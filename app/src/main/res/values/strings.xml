@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">wEconnect</string>
+    <string name="White_background">White_background</string>
+    <string name="username">Username</string>
+    <string name="save_button">SAVE</string>
+    <string name="upi_id">UPI ID</string>
+    <string name="userAddress">Address</string>
+    <string name="userCity">City</string>
+    <string name="userState">State</string>
+    <string name="userPinCode">Pincode</string>
+    <string name="sellnowbg">sellnow_background</string>
+</resources>

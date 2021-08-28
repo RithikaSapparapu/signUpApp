@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#2DCCA9"
+    android:orientation="vertical"
+    tools:context=".profileCreate">
+
+    <ImageView
+        android:id="@+id/background_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="330dp"
+        android:src="@drawable/background_sellnow" />
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#2DCCA9"
+        android:gravity="center_vertical"
+        android:text="Sell now!"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        app:cornerRadius="15dp"
+        app:iconTint="#FBF9F9"
+        tools:ignore="RtlCompat" />
+</RelativeLayout>
